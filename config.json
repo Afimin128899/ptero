@@ -1,0 +1,18 @@
+debug: false
+uuid: 24c88ff2-018c-40da-81ac-9cdb29c13a59
+token_id: OSNN34pXC4wBOQQ7
+token: NKwFVxB8GVckixk5kSU4pUQ3K5mbvxKNVNyvKeyKeYEcH5imTIcv9pOCZdbqSqeu
+api:
+  host: 0.0.0.0
+  port: 443
+  ssl:
+    enabled: false
+    cert: /etc/letsencrypt/live/vital-alive-redbird.ngrok-free.app/fullchain.pem
+    key: /etc/letsencrypt/live/vital-alive-redbird.ngrok-free.app/privkey.pem
+  upload_limit: 100
+system:
+  data: /var/lib/pterodactyl/volumes
+  sftp:
+    bind_port: 2022
+allowed_mounts: []
+remote: 'https://80-afimin128899-ptero-zjbzay3jpty.ws-eu108.gitpod.io'
